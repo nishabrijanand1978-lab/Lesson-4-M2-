@@ -1,0 +1,87 @@
+
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom , #FFF4F7, #ea96ac,#ed547d);
+      text-align: center;
+      color:#493344 ;
+    }
+    h1 {
+      color: #d63384;
+      font-size: 36px;
+      text-shadow: 2px 2px #F5C5DC;
+    }
+    h1 + p {
+      color: #8a2be2;
+      font-weight: bold;
+      background-color: #FCE4F0;
+      border-radius: 10px;
+      padding: 8px;
+    }
+    .shop-description::first-letter {
+      font-size: 40px;
+      color: #D63384 ;
+      font-weight: bold;
+    }
+    .menu-box {
+      width: 420px;
+      background-color: #FFFCFF;
+      border: 3px solid #ff69b4;
+      border-radius: 20px;
+      margin: 20px auto;
+      padding: 20px;
+      box-shadow: 0 8px 20px #E9C8DC;
+    }
+    ul {
+      padding: 0;
+    }
+    ul > li {
+      list-style: none;
+      background-color: #fff0f5;
+      color: #694477;
+      font-size: 18px;
+      font-weight: bold;
+      margin: 10px;
+      padding: 12px;
+      border-radius: 12px;
+      border: 2px solid #ffb6c8;
+    }
+    ul > li:nth-child(3) {
+      background-color: #fff0bd;
+      color: #995500;
+      border: 3px solid #FFB000;
+    }
+    ul > li:hover {
+      background-color: #E8D5F5;
+      color:  #694477;
+      cursor: pointer;
+    }
+    button {
+      background-color: #d63384;
+      color: white;
+      border: none;
+      border-radius: 25px;
+      padding: 12px 26px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      
+    }
+    button:hover {
+      background-color: #694477;
+    }
+
+    .shop-img {
+        width: 150px;
+        height: 150px;
+        animation: spin 5s alternate infinite;
+    }
+
+    @keyframes spin {
+        from {
+            transform: rotate(15deg);
+        }
+        to {
+            transform: rotate(-15deg);
+        }
+    }
+  
